@@ -1,0 +1,6 @@
+@mixin center($top, $left, $translateX, $translateY) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate($translateX, $translateY);
+}

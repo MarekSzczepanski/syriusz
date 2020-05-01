@@ -1,0 +1,35 @@
+.opinionsSection {
+  margin: 0;
+  padding: 0 $space1 $space1;
+  background-color: $color1;
+}
+.opinionsH3 {
+  color: $color2;
+}
+.opinionsSection #upsideDown {
+  border-bottom: 2px solid $color2;
+}
+.opinionsWrap {
+  height: 35vw;
+  margin-top: $space1;
+  border: 1px solid #836616;
+  background-image: url("../img/znicz.jpg");
+  background-size: cover;
+  background-position: center -9.5vw;
+  background-repeat: no-repeat;
+}
+.opinionsBackground {
+  position: absolute;
+  width: calc(100vw - 8vw - 1px);
+  height: 35vw;
+  border-bottom: 1px solid #836616;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(17, 17, 17, 1) 48%,
+    rgba(17, 17, 17, 0.6) 56%,
+    rgba(213, 166, 36, 0.2) 64%,
+    rgba(213, 166, 36, 0.4) 85%,
+    rgba(17, 17, 17, 0) 100%
+  );
+}

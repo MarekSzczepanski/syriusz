@@ -1,0 +1,104 @@
+.contactSection {
+  margin: 0;
+  padding: 0 $space2 8vw;
+  background-color: $color3;
+}
+#contactUpperOrnament {
+  padding-top: 3.4vw; //optical illusion
+}
+.contactWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: $space2;
+}
+.contactTextWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 2vw;
+  border: 4px solid $color1;
+  border-radius: 30px;
+}
+.contactP {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.contactUppercase {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+.contactFAWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & p {
+    margin: 0 0 0.3rem 0.5rem;
+  }
+}
+.contactIcon {
+  font-size: 1.4rem;
+}
+#contactMarginBottom {
+  margin-bottom: 2rem;
+}
+.contactMarginBottomWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nipRegon {
+  margin: 0 0 0.2rem 0.5rem;
+}
+#contactNoWrap {
+  white-space: nowrap;
+}
+.map {
+  width: 60vw;
+  height: 40vw;
+  border-radius: 30px;
+  opacity: 0.7;
+  border: solid 5px $color1;
+}
+.map div {
+  border-radius: 30px;
+}
+.map div .gm-style-mtc div {
+  border-radius: 0;
+}
+@media (min-width: 1400px) {
+  .contactP {
+    font-size: 1.3rem;
+  }
+  .contactUppercase {
+    font-size: 1.2rem;
+  }
+  #nipRegon {
+    margin-bottom: 0.3rem;
+  }
+}
+@media (min-width: 1600px) {
+  .contactP {
+    font-size: 1.5rem;
+  }
+  .contactUppercase {
+    font-size: 1.3rem;
+  }
+  #nipRegon {
+    margin-bottom: 0.4rem;
+  }
+}
+@media (min-width: 1800px) {
+  .contactP {
+    font-size: 1.7rem;
+  }
+  .contactUppercase {
+    font-size: 1.5rem;
+  }
+  #nipRegon {
+    margin-bottom: 0.5rem;
+  }
+}

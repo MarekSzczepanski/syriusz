@@ -1,0 +1,260 @@
+@media (min-width: 300px) {
+  .gallerySection,
+  .gallerySection2,
+  .gallerySection3 {
+    width: calc(100vw - 1.4rem);
+    position: relative;
+    background-color: $color1;
+  }
+  .imagesWrap {
+    display: flex;
+    position: relative;
+  }
+  .galleryImg,
+  .galleryImg2,
+  .galleryImg3 {
+    display: none;
+  }
+  .galleryChevronLeft,
+  .galleryChevronRight,
+  .galleryChevronLeft2,
+  .galleryChevronRight2,
+  .galleryChevronLeft3,
+  .galleryChevronRight3 {
+    display: none;
+    cursor: pointer;
+  }
+  .galleryButton {
+    border-style: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    background-color: $color1;
+    border: 1px solid $color3;
+    opacity: 0.9;
+    transition: 0.2s;
+    &:hover {
+      background-color: #222;
+    }
+    & a {
+      display: block;
+      height: 100%;
+      font-weight: 500;
+      text-decoration: none;
+      color: $color3;
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .gallerySection,
+  .gallerySection2 .gallerySection3 {
+    padding-bottom: 6rem;
+  }
+  .imagesWrap {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .galleryImg:first-of-type,
+  .galleryImg:nth-of-type(2),
+  .galleryImg:nth-of-type(3),
+  .galleryImg:nth-of-type(4),
+  .galleryImg2:first-of-type,
+  .galleryImg2:nth-of-type(2),
+  .galleryImg2:nth-of-type(3),
+  .galleryImg2:nth-of-type(4),
+  .galleryImg3:first-of-type,
+  .galleryImg3:nth-of-type(2),
+  .galleryImg3:nth-of-type(3),
+  .galleryImg3:nth-of-type(4) {
+    display: block;
+  }
+  .galleryImg,
+  .galleryImg2,
+  .galleryImg3 {
+    width: 95vw;
+    height: 95vw;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+  }
+  .galleryButton {
+    width: calc(15vw + 6px);
+    height: calc(3vw + 6px);
+    @include center(97%, 50%, -50%, -50%);
+    & a {
+      font-size: 0.9rem;
+      line-height: calc(3vw + 6px);
+    }
+  }
+}
+@media (min-width: 400px) {
+  .galleryButton {
+    @include center(97.7%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 500px) {
+  .gallerySection,
+  .gallerySection2,
+  .gallerySection3 {
+    padding-right: 1px;
+  }
+  .imagesWrap {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vw 50vw 50vw 50vw 50vw;
+  }
+  .galleryImg:nth-of-type(5),
+  .galleryImg:nth-of-type(6),
+  .galleryImg:nth-of-type(7),
+  .galleryImg:nth-of-type(8),
+  .galleryImg:nth-of-type(9),
+  .galleryImg:nth-of-type(10),
+  .galleryImg2:nth-of-type(5),
+  .galleryImg2:nth-of-type(6),
+  .galleryImg2:nth-of-type(7),
+  .galleryImg2:nth-of-type(8),
+  .galleryImg2:nth-of-type(9),
+  .galleryImg2:nth-of-type(10),
+  .galleryImg3:nth-of-type(5),
+  .galleryImg3:nth-of-type(6),
+  .galleryImg3:nth-of-type(7),
+  .galleryImg3:nth-of-type(8),
+  .galleryImg3:nth-of-type(9),
+  .galleryImg3:nth-of-type(10) {
+    display: block;
+  }
+  .galleryImg,
+  .galleryImg2,
+  .galleryImg3 {
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    padding-left: 1px;
+  }
+  .galleryButton {
+    @include center(96.7%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 600px) {
+  .galleryButton {
+    @include center(97.7%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 800px) {
+  .galleryButton {
+    @include center(98%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 950px) {
+  .galleryButton {
+    @include center(98.2%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 1000px) {
+  .imagesWrap {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .imagesWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 17vw;
+  }
+  .imagesWrap .galleryImg,
+  .imagesWrap .galleryImg2,
+  .imagesWrap .galleryImg3 {
+    display: none;
+    height: 100%;
+    width: 17vw;
+  }
+  .galleryChevronLeft,
+  .galleryChevronRight,
+  .galleryChevronLeft2,
+  .galleryChevronRight2,
+  .galleryChevronLeft3,
+  .galleryChevronRight3 {
+    display: block;
+    position: absolute;
+    font-size: 3rem;
+    color: $color3;
+    &:hover {
+      color: $color2;
+    }
+  }
+  .galleryChevronLeft,
+  .galleryChevronLeft2,
+  .galleryChevronLeft3 {
+    @include center(84%, 3%, -50%, -50%);
+  }
+  .galleryChevronRight {
+    @include center(84%, 97%, -50%, -50%);
+  }
+  .galleryButton {
+    @include center(85%, 50%, -50%, -50%);
+  }
+}
+@media (min-width: 1200px) {
+  .gallerySection,
+  .gallerySection2,
+  .gallerySection3 {
+    // // //
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+  }
+  .galleryChevronLeft,
+  .galleryChevronLeft2,
+  .galleryChevronLeft3 {
+    @include center(22.6vw, 3%, -50%, 0);
+  }
+  .galleryChevronRight,
+  .galleryChevronRight2,
+  .galleryChevronRight3 {
+    @include center(22.6vw, 97%, -50%, 0);
+  }
+  .galleryButton {
+    @include center(22.8vw, 50%, -50%, 0);
+  }
+}
+@media (min-width: 1400px) {
+  .galleryButton a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1600px) {
+  .galleryChevronLeft,
+  .galleryChevronLeft2,
+  .galleryChevronLeft3 {
+    font-size: 4rem;
+  }
+  .galleryChevronRight,
+  .galleryChevronRight2,
+  .galleryChevronRight3 {
+    font-size: 4rem;
+  }
+  .galleryButton {
+    width: calc(20vw - 6px);
+    height: calc(4vw - 6px);
+    @include center(22.65vw, 50%, -50%, 0);
+    & a {
+      font-size: 1.2rem;
+      line-height: 3.6vw;
+    }
+  }
+}
+@media (min-width: 1800px) {
+  .galleryButton {
+    @include center(22.4vw, 50%, -50%, 0);
+    & a {
+      font-size: 1.4rem;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.sliderOpinions,
+.sliderArrowOpinions {
+  display: none;
+}
+@media (min-width: 1100px) {
+  .sliderOpinions {
+    display: flex;
+    position: relative;
+    width: 300vw;
+    height: 35vw;
+    margin: 0;
+    z-index: 2;
+  }
+  .sliderWrapOpinions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 8vw - 1px);
+    margin: 0 58vw 0 6vw;
+  }
+  .nameH6 {
+    padding: 0 0 1vw;
+    opacity: 0;
+    font-size: 1.1rem;
+  }
+  #name1 {
+    opacity: 1;
+  }
+  .sliderArrowOpinions {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    top: 20.3em;
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+  }
+  #arrowLeftOpinions {
+    left: 1.5vw;
+  }
+  #arrowRightOpinions {
+    right: 1.5vw;
+  }
+}
+@media (min-width: 1200px) {
+  .arrowWrap {
+    position: relative;
+  }
+  .sliderArrowOpinions {
+    top: 16.2vw;
+  }
+  .opinionsP {
+    font-family: "Fondamento", cursive;
+    line-height: 2rem;
+    opacity: 0;
+    text-align-last: center;
+    color: #ddd;
+  }
+  #opinionsP1 {
+    opacity: 1;
+  }
+}
+@media (min-width: 1400px) {
+  .sliderArrowOpinions {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .nameH6 {
+    font-size: 1.3rem;
+  }
+  .opinionsP {
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1600px) {
+  .sliderArrowOpinions {
+    width: 3rem;
+    height: 3rem;
+  }
+  .nameH6 {
+    font-size: 1.5rem;
+  }
+  .opinionsP {
+    line-height: 2.7rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1800px) {
+  .nameH6 {
+    font-size: 1.7rem;
+  }
+  .opinionsP {
+    font-size: 1.7rem;
+  }
+}

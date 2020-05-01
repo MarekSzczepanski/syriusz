@@ -2,4 +2,133 @@
 @import "mixins";
 
 @import "header";
+@import "slider";
+@import "about";
+@import "guide";
+@import "funeral_home";
+@import "offer";
+@import "opinions";
+@import "contact";
 @import "footer";
+
+@import "gallery";
+@import "slider_opinions";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Great+Vibes:wght@400&family=Playfair+Display:wght@400;500;600;700;800;900&family=Fondamento:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background: $color4;
+}
+.wrap {
+  position: relative;
+  width: 100vw;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  font-family: "Playfair Display", serif;
+}
+li {
+  list-style-type: none;
+}
+.ornament {
+  display: block;
+  width: 15rem;
+  margin: 0 auto;
+  padding: 0 0.5rem 0.3rem;
+  border-bottom: 2px solid $color1;
+}
+h3 {
+  margin: 1.5rem 0 1.7rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+#upsideDown {
+  transform: rotate(180deg);
+}
+h5 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  color: $color1;
+}
+section {
+  margin: $space1 $space2;
+  & p {
+    margin: 0 auto;
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: $color1;
+  }
+}
+.aboutAndGuideWrap {
+  display: flex;
+  margin: 0 $space2;
+}
+@media (min-width: 1400px) {
+  h5 {
+    margin-bottom: 1.4rem;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 1.4rem;
+  }
+  section p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+}
+@media (min-width: 1600px) {
+  h5 {
+    margin-bottom: 1.8rem;
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.8rem;
+  }
+  section p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
+@media (min-width: 1800px) {
+  h5 {
+    margin-bottom: 2.2rem;
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.9rem;
+  }
+  h6 {
+    font-size: 2.2rem;
+  }
+  section p {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+  }
+}

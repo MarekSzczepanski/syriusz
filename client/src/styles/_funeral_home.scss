@@ -1,0 +1,16 @@
+.funeralHomeSection {
+  margin-top: 1vw;
+}
+.funeralHomeImagesWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: $space1 0;
+}
+.funeralHomeImg {
+  max-width: 42vw;
+  border-radius: 30px;
+  border: 3px solid $color5;
+}
+.funeralHomeP {
+  text-align-last: center;
+}

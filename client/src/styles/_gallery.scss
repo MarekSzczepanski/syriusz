@@ -81,12 +81,14 @@
     border-radius: 30px;
   }
   .galleryButton {
-    width: calc(15vw + 6px);
-    height: calc(3vw + 6px);
+    /* width: calc(15vw + 6px);
+    height: calc(3vw + 6px); */
+    width: 15rem;
+    height: 2.5rem;
     @include center(97%, 50%, -50%, -50%);
     & a {
       font-size: 0.9rem;
-      line-height: calc(3vw + 6px);
+      line-height: 2.5rem;
     }
   }
 }

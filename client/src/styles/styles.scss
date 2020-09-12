@@ -46,7 +46,7 @@ li {
 .ornament {
   display: block;
   width: 15rem;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 0 0.5rem 0.3rem;
   border-bottom: 2px solid $color1;
 }
@@ -62,15 +62,15 @@ h3 {
   transform: rotate(180deg);
 }
 h5 {
+  text-align: center;
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-weight: 800;
-  text-align: left;
   letter-spacing: 0.1rem;
   color: $color1;
 }
 section {
-  margin: $space1 $space2;
+  margin: 0 1rem;
   & p {
     margin: 0 auto;
     line-height: 1.5rem;
@@ -81,10 +81,24 @@ section {
   }
 }
 .aboutAndGuideWrap {
-  display: flex;
-  margin: 0 $space2;
+  display: block;
+}
+@media (min-width: 1100px) {
+  section {
+    margin: $space1 $space2;
+  }
+  h5 {
+    text-align: left;
+  }
+  .ornament {
+    margin: 0 auto;
+  }
 }
 @media (min-width: 1400px) {
+  .aboutAndGuideWrap {
+    display: flex;
+    margin: 0 $space2;
+  }
   h5 {
     margin-bottom: 1.4rem;
     font-size: 2rem;

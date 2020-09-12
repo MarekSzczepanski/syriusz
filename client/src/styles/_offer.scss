@@ -1,19 +1,11 @@
 .offerSection {
   position: relative;
   margin: 0;
+  padding-bottom: 2rem;
   background-color: $color1;
 }
 .cornerOrnament {
-  position: absolute;
-  width: 6.5vw;
-  z-index: 3;
-}
-#upperWhiteOrnament {
-  padding-top: $space1;
-  border-bottom: 2px solid $color2;
-}
-.offerSection #upsideDown {
-  border-bottom: 2px solid $color2;
+  display: none;
 }
 #upperLeftOrnament {
   top: -2.85vw;
@@ -70,6 +62,34 @@ h6 {
   text-align: center;
   letter-spacing: 0.1rem;
   color: $color2;
+}
+@media (min-width: 1100px) {
+  .cornerOrnament {
+    display: block;
+    position: absolute;
+    width: 6.5vw;
+    z-index: 3;
+  }
+  #upperWhiteOrnament {
+    padding-top: $space1;
+    border-bottom: 2px solid $color2;
+  }
+  #upperLeftOrnament {
+    top: -2.85vw;
+    left: 0.05vw;
+  }
+  #upperRightOrnament {
+    top: -2.45vw;
+    right: -0.3vw;
+  }
+  #bottomLeftOrnament {
+    top: 13vw;
+    left: -0.2vw;
+  }
+  #bottomRightOrnament {
+    top: 13.3vw;
+    right: 0;
+  }
 }
 
 @media (min-width: 1400px) {

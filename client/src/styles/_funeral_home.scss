@@ -3,14 +3,28 @@
 }
 .funeralHomeImagesWrap {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: $space1 0;
 }
 .funeralHomeImg {
-  max-width: 42vw;
+  /* max-width: 42vw; */
+  max-height: 10rem;
+  margin-bottom: 1rem;
   border-radius: 30px;
   border: 3px solid $color5;
 }
 .funeralHomeP {
   text-align-last: center;
+}
+
+@media (min-width: 1100px) {
+  .funeralHomeImagesWrap {
+    flex-direction: row;
+  }
+  .funeralHomeImg {
+    max-width: 42vw;
+    max-height: none;
+    margin-bottom: 0;
+  }
 }

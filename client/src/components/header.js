@@ -21,7 +21,8 @@ class Header extends React.Component {
         <div className="headerTextWrap">
           <div className="headerUpperWrap">
             <h1>
-              dom pogrzebowy <span>"syriusz"</span> w ostródzie
+              dom pogrzebowy <span className="h1Span">"syriusz"</span>w
+              ostródzie
             </h1>
             <h2 className="headerLetterSpacing">
               Kompleksowe usługi pogrzebowe

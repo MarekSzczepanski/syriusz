@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.scss";
 
-class Header extends React.Component {
+class About extends React.Component {
   render() {
     return (
       <section className="aboutSection">
@@ -24,4 +24,4 @@ class Header extends React.Component {
     );
   }
 }
-export default Header;
+export default About;

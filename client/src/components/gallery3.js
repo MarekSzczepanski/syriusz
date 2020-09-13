@@ -22,7 +22,7 @@ class Gallery3 extends React.Component {
       this
     );
     axios
-      .get("/api/wreathes_list")
+      .get("http://localhost:5000/api/wreathes_list")
       .then((response) => {
         boundChangeImagesLinksInState(response.data);
       })

@@ -22,7 +22,7 @@ class Gallery extends React.Component {
       this
     );
     axios
-      .get("/api/coffins_list")
+      .get("http://localhost:5000/api/coffins_list")
       .then((response) => {
         boundChangeImagesLinksInState(response.data);
       })

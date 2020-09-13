@@ -5,12 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: $space1 0;
+  margin: $space1 auto;
 }
 .funeralHomeImg {
   /* max-width: 42vw; */
-  max-height: 10rem;
-  margin-bottom: 1rem;
+  /* max-height: 10rem; */
+  max-width: 90vw;
+  margin: 0 auto 1rem;
   border-radius: 30px;
   border: 3px solid $color5;
 }

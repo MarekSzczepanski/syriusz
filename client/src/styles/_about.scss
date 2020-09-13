@@ -1,7 +1,7 @@
 @media (min-width: 300px) {
   .aboutSection {
     position: relative;
-    /*  width: 35vw; */
+
     margin: 22rem 1rem 0;
     padding-bottom: 1rem;
     border-bottom: 1px solid $color5;
@@ -26,18 +26,26 @@
 }
 @media (min-width: 1100px) {
   .aboutSection {
-    margin: 1rem 1rem 0;
+    width: 35vw;
+    margin: 1rem 0 0 4rem;
+    border-bottom: 0;
   }
   .aboutP {
     width: 35vw;
     padding-right: $space2;
     border-right: 1px solid $color5;
   }
+  .aboutImg {
+    display: block;
+  }
 }
 @media (min-width: 1400px) {
   .aboutH6 {
     margin-top: 3.4rem;
     font-size: 1.7rem;
+  }
+  .aboutP {
+    padding-right: $space2;
   }
 }
 @media (min-width: 1600px) {

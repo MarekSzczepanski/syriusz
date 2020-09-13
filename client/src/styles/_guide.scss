@@ -8,13 +8,19 @@
 }
 @media (min-width: 1100px) {
   .guideSection {
-    margin-right: 0;
+    margin-right: 4rem;
   }
   .guideImg {
+    display: block;
     width: 60%;
     margin: 0 0 1rem 2rem;
     float: right;
     border: 3px solid $color5;
     border-radius: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .guideImg {
+    width: 60%;
   }
 }

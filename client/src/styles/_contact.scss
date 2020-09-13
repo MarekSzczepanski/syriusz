@@ -1,6 +1,7 @@
 .contactSection {
   margin: 0;
   padding-top: 1rem;
+  padding-bottom: 3rem;
   background-color: $color3;
 }
 #contactUpperOrnament {
@@ -14,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: $space2;
-  @media (max-width: 1400px) {
+  @media (max-width: 1399px) {
     flex-direction: column;
   }
 }
@@ -75,7 +76,7 @@
   }
   .contactTextWrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     max-width: 30vw;
     height: 40vw;
@@ -93,6 +94,7 @@
     margin-bottom: 0.3rem;
   }
   .map {
+    display: block;
     width: 60vw;
     height: 40vw;
     border-radius: 30px;

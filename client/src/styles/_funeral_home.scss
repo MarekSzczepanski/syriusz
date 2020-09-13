@@ -1,5 +1,10 @@
 .funeralHomeSection {
-  margin-top: 1vw;
+  margin: 1vw 0 0;
+  padding: 2rem 0;
+  background-color: $color1;
+}
+.funeralHomeH3 {
+  color: $color2;
 }
 .funeralHomeImagesWrap {
   display: flex;
@@ -15,6 +20,8 @@
 }
 .funeralHomeP {
   text-align-last: center;
+  max-width: 90%;
+  color: $color2;
 }
 
 @media (min-width: 1100px) {
@@ -22,8 +29,8 @@
     flex-direction: row;
   }
   .funeralHomeImg {
-    max-width: 42vw;
+    max-width: 47vw;
     max-height: none;
-    margin-bottom: 0;
+    margin: 0 auto 0 1.5vw;
   }
 }

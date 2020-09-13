@@ -4,7 +4,6 @@
   .gallerySection3 {
     width: calc(100vw - 1.4rem);
     position: relative;
-    background-color: $color1;
   }
   .imagesWrap {
     display: flex;
@@ -31,20 +30,22 @@
     letter-spacing: 2px;
     white-space: nowrap;
     background-color: $color1;
-    border: 1px solid $color3;
+    border: 1px solid $color2;
     opacity: 0.9;
     transition: 0.2s;
     &:hover {
-      background-color: #222;
+      background-color: $color2;
+      border: 1px solid $color1;
     }
     & a {
       display: block;
       height: 100%;
       font-weight: 500;
       text-decoration: none;
-      color: $color3;
+      color: $color2;
       &:hover {
         font-weight: 700;
+        color: $color1;
       }
     }
   }
@@ -182,7 +183,7 @@
     display: block;
     position: absolute;
     font-size: 3rem;
-    color: $color3;
+    color: $color1;
     &:hover {
       color: $color2;
     }
@@ -220,7 +221,7 @@
     @include center(22.6vw, 97%, -50%, 0);
   }
   .galleryButton {
-    @include center(22.8vw, 50%, -50%, 0);
+    @include center(19.8vw, 50%, -50%, 0);
   }
 }
 @media (min-width: 1400px) {
@@ -242,7 +243,7 @@
   .galleryButton {
     width: calc(20vw - 6px);
     height: calc(4vw - 6px);
-    @include center(22.65vw, 50%, -50%, 0);
+    @include center(19.65vw, 50%, -50%, 0);
     & a {
       font-size: 1.2rem;
       line-height: 3.6vw;
@@ -251,7 +252,7 @@
 }
 @media (min-width: 1800px) {
   .galleryButton {
-    @include center(22.4vw, 50%, -50%, 0);
+    @include center(19.4vw, 50%, -50%, 0);
     & a {
       font-size: 1.4rem;
     }

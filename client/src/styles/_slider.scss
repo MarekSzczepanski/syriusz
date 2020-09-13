@@ -17,8 +17,8 @@
     background: linear-gradient(180deg, $color1 -5%, $color4 100%);
   }
   .sliderWrap {
-    width: 80vw;
-    margin: 2vw 10vw;
+    width: 60vw;
+    margin: 2vw 20vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -32,7 +32,7 @@
     background-image: url("../img/slider2.jpg");
   }
   #slider3 {
-    background-image: url("../img/slider3.JPG");
+    background-image: url("../img/slider3.jpg");
   }
   .sliderArrow {
     display: block;

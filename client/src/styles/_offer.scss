@@ -1,8 +1,8 @@
 .offerSection {
   position: relative;
   margin: 0;
-  padding: 2rem 0;
-  background-color: $color1;
+  padding-top: 2rem;
+  background-color: $color3;
 }
 .cornerOrnament {
   display: none;
@@ -27,9 +27,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.offerH3 {
-  color: $color2;
-}
 h4 {
   margin-top: $space1;
   padding-top: 2vw; //don't want to avoid variable usage
@@ -39,7 +36,6 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: $color2;
 }
 #lastOfferH4 {
   padding-top: 8vw;
@@ -48,20 +44,23 @@ h4 {
 #middleOfferH4 {
   margin-top: $space1;
 }
-h6 {
-  padding: 10vw 0 1.5vw 0;
+.offerAlsoWrap {
+  padding-bottom: 2rem;
+}
+.offerSection h6 {
+  margin: 10vw 0 1.5vw 0;
+  padding-top: 2rem;
+  border-top: solid 1px $color1;
   font-size: 1.3rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: $color3;
 }
 .offerP {
   font-size: 1.1rem;
   line-height: 2rem;
   text-align: center;
   letter-spacing: 0.1rem;
-  color: $color2;
 }
 @media (min-width: 1100px) {
   .cornerOrnament {

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/styles.scss";
 import Home from "../img/dom.jpg";
 import Chapel from "../img/kaplica.jpg";
-import Ornament from "../img/ornament.png";
+import Ornament from "../img/ornament-white.png";
 
 class Funeral_Home extends React.Component {
   render() {

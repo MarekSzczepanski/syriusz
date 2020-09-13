@@ -9,19 +9,13 @@ class Guide extends React.Component {
         <h5 className="guideH5">Niezbędne dokumenty</h5>
         <img className="guideImg" src={Documents} alt="Dokumenty"></img>
         <p>
-          Śmierć Bliskiego to traumatyczny moment dla najbliższych. To czas,
-          kiedy w ciągu kilku dni należy zrealizować szereg wszelkich
-          formalności, które pozwolą na organizację godnej ceremonii
-          pogrzebowej. Dom Pogrzebowy Elizjum, wychodząc naprzeciw pytaniom,
-          przybliża, jakie sprawy formalne i dokumenty musi zebrać i załatwić
-          rodzina Zmarłego, aby odprawić mu godny pogrzeb. Kluczowe znaczenie ma
-          tu miejsce, gdzie zmarł Bliski. Inne procedury obowiązują w przypadku
-          śmierci w domu, inne w szpitalu czy domu opieki. Każdorazowo
-          najważniejszym jest, aby uzyskać kartę zgonu podpisaną przez lekarza,
-          na podstawie której wystawiony zostanie w Urzędzie Stanu Cywilnego akt
-          zgonu. Te dwa dokumenty potwierdzają niezaprzeczalnie fakt śmierci.
-          Otrzymawszy je można wybrać zakład pogrzebowy, który zorganizuje
-          ceremonię ostatniego pożegnania zmarłego.
+          By dokonać niezbędnych formalności związanych z Ostatnią Posługą,
+          niezbędna jest karta zgonu podpisana przez lekarza. Następnie, z wyżej
+          wspomnianym dokumentem, należy udać się do Urzędu Stanu Cywilnego, by
+          uzyskać akt zgonu. Posiadając oba dokumenty można dokonać wyboru
+          zakładu pogrzebowego. Kompleksowe Usługi Pogrzebowe "Syriusz" to
+          firma, która pomoże Państwu z formalnościami związanymi z pochówkiem
+          bliskiej osoby. W razie jakichkolwiek pytań prosimy o kontakt.
         </p>
       </section>
     );

@@ -426,37 +426,37 @@ class SliderOpinions extends React.Component {
         <div className="sliderOpinions">
           <div className="sliderWrapOpinions" id="slider1Opinions">
             <h6 className="nameH6" id="name1">
-              bożena
+              Anna
             </h6>
             <p className="opinionsP" id="opinionsP1">
-              Serdecznie dziękuję za zorganizowanie pogrzebu Taty. Mowa
-              laudacyjna i oprawa muzyczna, jak również cała ceremonia była
-              wręcz wspaniała. Właściciele wyróżniają się na tle innych firm
-              (byłam w kilku) pomocą, życzliwością, podejściem do klienta i
-              profesjonalnym wykonaniem usług. Dziękuję Pani Sylwio i Panie
-              Arturze.
+              Profesjonalne podejście i wielka życzliwość w jakże trudnych dla
+              klientów chwilach. Polecam!
             </p>
           </div>
           <div className="sliderWrapOpinions" id="slider2Opinions">
             <h6 className="nameH6" id="name2">
-              zdzisław
+              Renata
             </h6>
             <p className="opinionsP" id="opinionsP2">
-              Dziękuję za organizację pogrzebu mojej Mamy. Profesjonalne
-              podejście pełne taktu, powagi i godności Doskonała organizacja
-              Firma godna polecenia
+              Moment pożegnania z Najbliższym jest dla każdej Rodziny niezwykle
+              bolesny i tragiczny. Dlatego pragniemy bardzo serdecznie
+              podziękować Państwu za to, że w tych trudnych chwilach
+              towarzyszyliście naszej Rodzinie, a swym profesjonalizmem,
+              delikatnością, taktem i fachowością sprawiliście, że z poczuciem
+              wewnętrznego spokoju odprowadziliśmy naszą Mamę, Babcię i
+              Prababcię na miejsce Jej doczesnego spoczynku.
             </p>
           </div>
           <div className="sliderWrapOpinions" id="slider3Opinions">
             <h6 className="nameH6" id="name3">
-              julia
+              Adriana
             </h6>
             <p className="opinionsP" id="opinionsP3">
-              W imieniu moim oraz całej rodziny serdecznie dziękuję za życzliwą
-              i profesjonalną organizację pogrzebu taty 20.03.2015r. szczerze
-              wszystkim polecamy tę firmę, z pełnym przekonaniem iż każdy
-              chciałby pożegnać bliską osobę z taką godnością życzliwością i
-              zaangażowaniem. Z wyrazami szacunku
+              Bardzo dziękuję za profesjonalną organizację i pięknie
+              zrealizowaną uroczystość pogrzebową mojego Taty. "Syriusz" przejął
+              na swoje barki wszystkie obowiązki związane z przygotowaniami i
+              dzięki temu mogliśmy w ciszy i skupieniu w gronie rodziny i
+              przyjaciół pożegnać bliską nam osobę.
             </p>
           </div>
         </div>

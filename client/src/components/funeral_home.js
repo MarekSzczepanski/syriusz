@@ -21,12 +21,11 @@ class Funeral_Home extends React.Component {
           <img className="funeralHomeImg" src={Chapel} alt="Kaplica"></img>
         </div>
         <p className="funeralHomeP">
-          Wieloletnie doświadczenie w branży pogrzebowej pozwoliło nam
-          zapracować na wizerunek firmy godnej zaufania i polecenia. W trosce o
-          podwyższenie jakości wykonywanych usług wybudowaliśmy dla Państwa dom
-          pogrzebowy z własną kaplicą, chłodnią oraz piękną salą tak, by był on
-          godnym miejscem do przygotowania osoby zmarłej do ostatniego
-          pożegnania.
+          Liczne ceremonie pogrzebowe, które zorganizowaliśmy pozwoliły nam
+          zapracować na opinię godnego zaufania domu pogrzebowego. Dbamy o
+          prawidłowy przebieg każdego pochówku, by zachował on zgodność z wolą
+          najbliższych zmarłego. Konsultujemy z państwem kluczowe epizody
+          ceremonii oraz jej szczegóły, takie jak wieńce czy muzyka.
         </p>
       </section>
     );

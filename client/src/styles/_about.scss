@@ -1,18 +1,13 @@
 @media (min-width: 300px) {
   .aboutSection {
     position: relative;
-
     margin: 22rem 1rem 0;
     padding-bottom: 1rem;
     border-bottom: 1px solid $color5;
-
-    /*  margin-right: 0;
-    margin-left: 0; */
   }
   .aboutImg {
     position: absolute;
     right: -5rem;
-    /*  display: none; */
   }
   .aboutH6 {
     margin-top: 3rem;

@@ -13,7 +13,6 @@
   }
   .headerTextWrap {
     height: 100%;
-    /*  margin-left: 30vw; */
   }
   .headerUpperWrap {
     padding-top: 3rem;
@@ -74,15 +73,12 @@
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
     z-index: 2;
-    /*  background-color: $color1; */
   }
   ul {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     background-color: $color1;
-    /* height: 100%; */
     padding: 1.5rem 0 1.5rem;
   }
   li {

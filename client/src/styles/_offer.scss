@@ -2,7 +2,11 @@
   position: relative;
   margin: 0;
   padding-top: 2rem;
-  background-color: $color3;
+  border-bottom: 1px solid $color3;
+  background-color: $color1;
+}
+.offerH3 {
+  color: $color2;
 }
 .cornerOrnament {
   display: none;
@@ -36,6 +40,7 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  color: $color3;
 }
 #lastOfferH4 {
   padding-top: 8vw;
@@ -46,11 +51,15 @@ h4 {
 }
 .offerAlsoWrap {
   padding-bottom: 2rem;
+  color: $color2;
+}
+.offerAlsoWrap p {
+  color: $color3;
 }
 .offerSection h6 {
   margin: 10vw 0 1.5vw 0;
   padding-top: 2rem;
-  border-top: solid 1px $color1;
+  border-top: solid 1px $color3;
   font-size: 1.3rem;
   text-align: center;
   text-transform: uppercase;
@@ -62,6 +71,7 @@ h4 {
   text-align: center;
   letter-spacing: 0.1rem;
 }
+
 @media (min-width: 1100px) {
   .cornerOrnament {
     display: block;

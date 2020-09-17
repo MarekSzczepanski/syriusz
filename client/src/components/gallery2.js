@@ -200,9 +200,7 @@ class Gallery2 extends React.Component {
             className="galleryChevronLeft2"
             onClick={this.handleChevronClick}
           />
-          <button className="galleryButton" id="galleryButton2">
-            <Link to="/galleryPage">zobacz galerię</Link>
-          </button>
+
           <FontAwesomeIcon
             icon={faChevronRight}
             className="galleryChevronRight2"

@@ -3,7 +3,7 @@ import "../styles/styles.scss";
 import Gallery from "../components/gallery";
 import Gallery2 from "../components/gallery2";
 import Gallery3 from "../components/gallery3";
-import Ornament from "../img/ornament.png";
+import Ornament from "../img/ornament-white.png";
 class Guide extends React.Component {
   render() {
     return (

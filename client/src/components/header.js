@@ -62,7 +62,6 @@ class Header extends React.Component {
               <li onClick={this.scrollToSection} id="contact">
                 kontakt
               </li>
-              <li>galeria</li>
             </ul>
           </nav>
         </div>

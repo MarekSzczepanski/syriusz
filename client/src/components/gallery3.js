@@ -214,9 +214,7 @@ class Gallery3 extends React.Component {
             className="galleryChevronLeft3"
             onClick={this.handleChevronClick}
           />
-          <button className="galleryButton" id="galleryButton3">
-            <Link to="/galleryPage">zobacz galerię</Link>
-          </button>
+
           <FontAwesomeIcon
             icon={faChevronRight}
             className="galleryChevronRight3"
